@@ -12,11 +12,13 @@ window.onload = function () {
         embedVideo(i, videoUrl);
       }
 
+      // イベントリスナーを設定
       urlElement.addEventListener("blur", function () {
         const updatedUrl = convertToEmbedUrl(urlElement.value.trim());
         updateUrlParam(i, updatedUrl);
       });
 
+      // 削除ボタンのイベントリスナーを設定
       deleteElement.addEventListener("click", function () {
         deleteVideo(i);
       });
@@ -35,7 +37,9 @@ function convertToEmbedUrl(url) {
       newUrl = newUrl.substring(0, newUrl.indexOf("&"));
     }
   } else if (url.includes("nicovideo.jp")) {
-    newUrl = url.replace("www.nicovideo.jp/watch", "embed.nicovideo.jp/watch");
+    newUrl = url
+      .replace("www.nicovideo.jp/watch", "embed.nicovideo.jp/watch")
+      .replace("sp.nicovideo.jp/watch", "embed.nicovideo.jp/watch");
   } else if (url.includes("tiktok.com")) {
     const contentID = url.split("video/")[1].split("?")[0];
     newUrl = `https://www.tiktok.com/embed/${contentID}`;
@@ -47,7 +51,7 @@ function convertToEmbedUrl(url) {
 function embedVideo(playerNumber, url) {
   const iframeContainer = document.getElementById(`videoFrame${playerNumber}`);
   if (iframeContainer) {
-    iframeContainer.innerHTML = `<iframe src="${url}" height="200px" width="100%" frameborder="0" allowfullscreen></iframe>`;
+    iframeContainer.innerHTML = `<iframe src="${url}" height="300px" width="100%" frameborder="0" allowfullscreen></iframe>`;
   }
 }
 
