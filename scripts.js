@@ -53,9 +53,9 @@ function embedVideo(playerNumber, url) {
   if (iframeContainer) {
     let height = 200;
     if (url.includes("tiktok.com")) {
-      height = 700;
+      height = 600;
     } else if (url.includes("bilibili.com")) {
-      height = 500;
+      height = 350;
     }
     iframeContainer.innerHTML =
       "<iframe src='" +
