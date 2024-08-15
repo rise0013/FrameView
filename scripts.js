@@ -51,7 +51,16 @@ function convertToEmbedUrl(url) {
 function embedVideo(playerNumber, url) {
   const iframeContainer = document.getElementById(`videoFrame${playerNumber}`);
   if (iframeContainer) {
-    iframeContainer.innerHTML = `<iframe src="${url}" height="200px" width="100%" frameborder="0" allowfullscreen></iframe>`;
+    let height = 200;
+    if (url.includes("tiktok.com")) {
+      height = 700;
+    } else if (url.includes("bilibili.com")) {
+      height = 500;
+    }
+    iframeContainer.innerHTML =
+      "<iframe src='${url}' height='" +
+      height +
+      "px' width='100%' frameborder='0' allowfullscreen></iframe>";
   }
 }
 
