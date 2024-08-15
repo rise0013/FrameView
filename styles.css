@@ -47,7 +47,7 @@ p {
 }
 
 .delete_button {
-  width: 18%;
+  width: 19.8%;
   margin-top: 1%;
   height: 30px;
   margin: 0;
@@ -81,7 +81,7 @@ iframe {
 
 .videoPlayer {
   display: inline-block;
-  width: 93%;
+  width: 96%;
   border-width: 1px;
   border-color: #ccc;  /* グレーの枠線 */
   border-style: solid;
