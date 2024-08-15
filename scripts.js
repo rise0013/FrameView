@@ -51,7 +51,7 @@ function convertToEmbedUrl(url) {
 function embedVideo(playerNumber, url) {
   const iframeContainer = document.getElementById(`videoFrame${playerNumber}`);
   if (iframeContainer) {
-    iframeContainer.innerHTML = `<iframe src="${url}" height="300px" width="100%" frameborder="0" allowfullscreen></iframe>`;
+    iframeContainer.innerHTML = `<iframe src="${url}" height="200px" width="100%" frameborder="0" allowfullscreen></iframe>`;
   }
 }
 
