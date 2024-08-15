@@ -1,130 +1,130 @@
 body {
-    user-select: none;
-    width: 95%;
-    font-family: 'Noto Sans JP', sans-serif;
-    background-color: #f4f4f4; /* 全体の背景を落ち着いた色に */
-    color: #333; /* 文字色を落ち着いたダークグレーに */
-  }
-  
-  input {
-    -webkit-appearance: none;
-    height: 40px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 5px;  /* 角を少し丸く */
-    border: 1px solid #555;  /* 落ち着いた色の枠線 */
-    background-color: #fff; /* 背景色を白に */
-    color: #333; /* 文字色を落ち着いた色に */
-  }
-  
-  input:focus {
-    background-color: #e6f2ff; /* フォーカス時にわずかに色を変える */
-    outline: none;
-  }
-  
-  h1 {
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: #2c3e50;  /* 落ち着いた濃い青色 */
-    font-weight: 600; /* 太さを調整 */
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    display: inline-block;
-    width: 80%;
-    color: #2c3e50;  /* 落ち着いた濃い青色 */
-    font-weight: 600; /* 太さを調整 */
-  }
-  
-  p {
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  .delete_button {
-    width: 18%;
-    margin-top: 1%;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    background-color: #2c3e50;  /* ダークブルーの削除ボタン */
-    color: white;
-    border: none;
-    border-radius: 5px;  /* 角を少し丸く */
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .delete_button:hover {
-    background-color: #1a242f;  /* ホバー時にさらに濃い色に */
-  }
-  
-  header, article, footer {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  
-  footer {
-    font-size: 14px;
-    color: #555;  /* 落ち着いた色のフッター */
-  }
-  
-  iframe {
-    -webkit-appearance: none;
-    border-radius: 5px;  /* 角を少し丸く */
-  }
-  
-  .videoPlayer {
-    display: inline-block;
-    width: 93%;
-    border-width: 1px;
-    border-color: #ccc;  /* グレーの枠線 */
-    border-style: solid;
-    padding: 2%;
-    padding-top: 0.5%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    background-color: #fff;  /* 白の背景色 */
-    border-radius: 5px;  /* 角を少し丸く */
-    -webkit-appearance: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* わずかなシャドウで浮かび上がらせる */
-  }
-  
-  .inputclass {
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 5px;  /* 角を少し丸く */
-    border: 1px solid #ccc;  /* グレーの枠線 */
-    padding: 8px; /* 内側の余白を追加 */
-    background-color: #f9f9f9;  /* 背景を少しトーンダウン */
-    color: #333; /* 文字色を落ち着いた色に */
-  }
-  
-  .notice, .terms {
-    margin: 20px 3%;
-    padding: 15px;
-    background-color: #f8f8f8;  /* 白に近い背景色 */
-    border: 1px solid #ccc;  /* グレーの枠線 */
-    border-radius: 5px;  /* 角を少し丸く */
-    font-size: 12px;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  .notice strong, .terms h2, .terms h3 {
-    color: #2c3e50;  /* 落ち着いた濃い青色 */
-  }
-  
-  .notice span {
-    color: #c0392b;  /* 深い赤色で強調 */
-  }
-  
-  .notice br, .terms br {
-    margin-bottom: 10px;
-  }
-  
+  user-select: none;
+  width: 95%;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #f4f4f4; /* 全体の背景を落ち着いた色に */
+  color: #333; /* 文字色を落ち着いたダークグレーに */
+}
+
+input {
+  -webkit-appearance: none;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;  /* 角を少し丸く */
+  border: 1px solid #555;  /* 落ち着いた色の枠線 */
+  background-color: #fff; /* 背景色を白に */
+  color: #333; /* 文字色を落ち着いた色に */
+}
+
+input:focus {
+  background-color: #e6f2ff; /* フォーカス時にわずかに色を変える */
+  outline: none;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #2c3e50;  /* 落ち着いた濃い青色 */
+  font-weight: 600; /* 太さを調整 */
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 80%;
+  color: #2c3e50;  /* 落ち着いた濃い青色 */
+  font-weight: 600; /* 太さを調整 */
+}
+
+p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.delete_button {
+  width: 18%;
+  margin-top: 1%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50;  /* ダークブルーの削除ボタン */
+  color: white;
+  border: none;
+  border-radius: 5px;  /* 角を少し丸く */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete_button:hover {
+  background-color: #1a242f;  /* ホバー時にさらに濃い色に */
+}
+
+header, article, footer {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+footer {
+  font-size: 14px;
+  color: #555;  /* 落ち着いた色のフッター */
+}
+
+iframe {
+  -webkit-appearance: none;
+  border-radius: 5px;  /* 角を少し丸く */
+}
+
+.videoPlayer {
+  display: inline-block;
+  width: 93%;
+  border-width: 1px;
+  border-color: #ccc;  /* グレーの枠線 */
+  border-style: solid;
+  padding: 2%;
+  padding-top: 0.5%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  background-color: #fff;  /* 白の背景色 */
+  border-radius: 5px;  /* 角を少し丸く */
+  -webkit-appearance: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* わずかなシャドウで浮かび上がらせる */
+}
+
+.inputclass {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;  /* 角を少し丸く */
+  border: 1px solid #ccc;  /* グレーの枠線 */
+  padding: 8px; /* 内側の余白を追加 */
+  background-color: #f9f9f9;  /* 背景を少しトーンダウン */
+  color: #333; /* 文字色を落ち着いた色に */
+}
+
+.notice, .terms {
+  margin: 20px 3%;
+  padding: 15px;
+  background-color: #f8f8f8;  /* 白に近い背景色 */
+  border: 1px solid #ccc;  /* グレーの枠線 */
+  border-radius: 5px;  /* 角を少し丸く */
+  font-size: 12px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.notice strong, .terms h2, .terms h3 {
+  color: #2c3e50;  /* 落ち着いた濃い青色 */
+}
+
+.notice span {
+  color: #c0392b;  /* 深い赤色で強調 */
+}
+
+.notice br, .terms br {
+  margin-bottom: 10px;
+}
+
