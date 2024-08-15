@@ -58,7 +58,9 @@ function embedVideo(playerNumber, url) {
       height = 500;
     }
     iframeContainer.innerHTML =
-      "<iframe src='${url}' height='" +
+      "<iframe src='" +
+      url +
+      "' height='" +
       height +
       "px' width='100%' frameborder='0' allowfullscreen></iframe>";
   }
